@@ -1,0 +1,135 @@
+{
+  "config": {
+    "brandName": "PromoShop",
+    "pageTitle": "Links PromoShop",
+    "headline": "Promoções boas estão a um clique.",
+    "description": "Acesse o site oficial da PromoShop e escolha os grupos de ofertas que mais combinam com você.",
+    "logoUrl": "/uploads/logo-1787205823378-erguvoo9.png",
+    "faviconUrl": "/favicon.svg",
+    "primaryColor": "#1269f3",
+    "secondaryColor": "#6c5ce7",
+    "backgroundColor": "#07111f",
+    "backgroundStyle": "gradient",
+    "buttonStyle": "rounded",
+    "showLogo": true,
+    "showFooter": true,
+    "footerText": "PromoShop • Encontre ofertas sem perder tempo.",
+    "disclosure": "Podemos receber comissão pelas compras realizadas através de alguns links, sem custo adicional para você."
+  },
+  "links": [
+    {
+      "id": "site-promoshop",
+      "title": "PromoShop",
+      "subtitle": "Veja todas as ofertas no nosso site",
+      "url": "https://promoshop.jhonatafaraujo.com.br",
+      "enabled": true,
+      "featured": true,
+      "order": 1,
+      "updatedAt": "2026-08-20T06:44:12.878Z"
+    },
+    {
+      "id": "link_1787209566533_0a5cae3d",
+      "title": "PromoShop ⚡ Ofertas Gerais | G01",
+      "subtitle": "Ofertas Gerais",
+      "url": "https://chat.whatsapp.com/KOb237MenwoFdvm3H63R4x",
+      "enabled": true,
+      "featured": false,
+      "order": 2,
+      "createdAt": "2026-08-20T07:06:06.533Z"
+    },
+    {
+      "id": "link_1787209596487_a68f75dd",
+      "title": "PromoShop 📱 Tecnologia & Games | G02",
+      "subtitle": "Tecnologia & Games",
+      "url": "https://chat.whatsapp.com/GMI4RgithFBIl7OZ8P0KPB",
+      "enabled": true,
+      "featured": false,
+      "order": 3,
+      "createdAt": "2026-08-20T07:06:36.487Z"
+    },
+    {
+      "id": "link_1787209630515_56162ab0",
+      "title": "PromoShop 🏠 Casa & Cozinha | G03",
+      "subtitle": "Casa & Cozinha",
+      "url": "https://chat.whatsapp.com/KLtZkefwLqP1A6Ci7l7inA",
+      "enabled": true,
+      "featured": false,
+      "order": 4,
+      "createdAt": "2026-08-20T07:07:10.515Z"
+    },
+    {
+      "id": "link_1787209660214_3bb547d0",
+      "title": "PromoShop 💄 Beleza & Cabelo | G04",
+      "subtitle": "Beleza & Cabelo",
+      "url": "https://chat.whatsapp.com/JJHLZ2aIsLJ7WeRYARhE7c",
+      "enabled": true,
+      "featured": false,
+      "order": 5,
+      "createdAt": "2026-08-20T07:07:40.214Z",
+      "updatedAt": "2026-08-20T07:07:46.874Z"
+    },
+    {
+      "id": "link_1787209703210_8b398671",
+      "title": "PromoShop 👟 Moda & Acessórios | G05",
+      "subtitle": "Moda & Acessórios",
+      "url": "https://chat.whatsapp.com/GJbDXEiljDnAG26WtR3DMk",
+      "enabled": true,
+      "featured": false,
+      "order": 6,
+      "createdAt": "2026-08-20T07:08:23.210Z"
+    },
+    {
+      "id": "link_1787209729215_5ad55ac4",
+      "title": "PromoShop 🐶 Pet | G06",
+      "subtitle": "Pet",
+      "url": "https://chat.whatsapp.com/JqvHgzBp9meDBJP4uC94cr",
+      "enabled": true,
+      "featured": false,
+      "order": 7,
+      "createdAt": "2026-08-20T07:08:49.215Z"
+    },
+    {
+      "id": "link_1787209773411_1a41c2e4",
+      "title": "PromoShop 🧸 Bebês & Crianças | G07",
+      "subtitle": "Bebês & Crianças",
+      "url": "https://chat.whatsapp.com/GuNq9glSYgZ8r6hCsdAbdn",
+      "enabled": true,
+      "featured": false,
+      "order": 8,
+      "createdAt": "2026-08-20T07:09:33.411Z"
+    },
+    {
+      "id": "link_1787209800441_91bc236d",
+      "title": "PromoShop 🏋️ Esporte & Fitness | G08",
+      "subtitle": "Esporte & Fitness",
+      "url": "https://chat.whatsapp.com/G3F7bcH3cTrFsrxjoHG55p",
+      "enabled": true,
+      "featured": false,
+      "order": 9,
+      "createdAt": "2026-08-20T07:10:00.441Z"
+    },
+    {
+      "id": "link_1787209831795_22746c4b",
+      "title": "PromoShop 🔧 Ferramentas & Automotivo | G09",
+      "subtitle": "Ferramentas & Automotivo",
+      "url": "https://chat.whatsapp.com/JjnzK4q9rkKGSso5ZDHG5x",
+      "enabled": true,
+      "featured": false,
+      "order": 10,
+      "createdAt": "2026-08-20T07:10:31.795Z"
+    },
+    {
+      "id": "link_1787209865035_dfc3b48a",
+      "title": "PromoShop 🔥 Ofertas Imperdíveis | G10",
+      "subtitle": "Ofertas Imperdíveis",
+      "url": "https://chat.whatsapp.com/FBCaLZ9nwyWGTI6WTkRw0O",
+      "enabled": true,
+      "featured": false,
+      "order": 11,
+      "createdAt": "2026-08-20T07:11:05.035Z"
+    }
+  ],
+  "meta": {
+    "updatedAt": "2026-08-20T07:12:00.978Z"
+  }
+}
