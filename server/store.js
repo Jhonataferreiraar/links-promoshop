@@ -10,10 +10,12 @@ const root = path.resolve(
   '..'
 );
 
-const dataDir = path.join(
-  root,
-  'data'
-);
+const dataDir = process.env.DATA_DIR
+  ? path.resolve(process.env.DATA_DIR)
+  : path.join(
+      root,
+      'data'
+    );
 
 const storePath = path.join(
   dataDir,
@@ -94,17 +96,65 @@ async function ensureStore() {
     await fs.access(
       storePath
     );
+
+    return;
   } catch {
-    await fs.writeFile(
-      storePath,
-      JSON.stringify(
-        defaultStore,
-        null,
-        2
-      ),
-      'utf8'
-    );
+    // O arquivo persistente ainda não existe.
   }
+
+  const bundledStorePath =
+    path.join(
+      root,
+      'data',
+      'store.json'
+    );
+
+  // Se estivermos usando um diretório externo,
+  // como /var/data no Render, tenta usar o
+  // store.json que veio junto com o projeto.
+  if (
+    path.resolve(
+      bundledStorePath
+    ) !==
+    path.resolve(
+      storePath
+    )
+  ) {
+    try {
+      const initialData =
+        await fs.readFile(
+          bundledStorePath,
+          'utf8'
+        );
+
+      JSON.parse(
+        initialData
+      );
+
+      await fs.writeFile(
+        storePath,
+        initialData,
+        'utf8'
+      );
+
+      return;
+    } catch (error) {
+      console.warn(
+        'Não foi possível usar o store.json inicial:',
+        error.message
+      );
+    }
+  }
+
+  await fs.writeFile(
+    storePath,
+    JSON.stringify(
+      defaultStore,
+      null,
+      2
+    ),
+    'utf8'
+  );
 }
 
 export async function readStore() {

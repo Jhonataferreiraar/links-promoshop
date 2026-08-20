@@ -10,10 +10,16 @@ const root = path.resolve(
   '..'
 );
 
+const dataDir = process.env.DATA_DIR
+  ? path.resolve(process.env.DATA_DIR)
+  : path.join(
+      root,
+      'data'
+    );
+
 const secretsPath =
   path.join(
-    root,
-    'data',
+    dataDir,
     'secrets.enc'
   );
 
